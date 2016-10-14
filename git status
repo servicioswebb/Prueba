@@ -1,0 +1,49 @@
+[33mcommit 6acb59a1092c31b5ede45a1fc8f4634d7b000582[m
+Author: eromero <edu88_1@hotmail.com>
+Date:   Fri Oct 14 08:28:21 2016 -0400
+
+    aprendiendo helpers
+
+[33mcommit 7b4bb1311762604c0c2d1bf37a772cb1321cf710[m
+Merge: a66b992 f5750a7
+Author: eromero <edu88_1@hotmail.com>
+Date:   Fri Oct 14 06:07:32 2016 -0400
+
+    conflicto
+
+[33mcommit f5750a7661d322c717ee112fd971d113d8957f02[m
+Author: edwynr <edu88_1@hotmail.com>
+Date:   Fri Oct 14 15:39:52 2016 -0400
+
+    arreglando el modelo compañia y controlador
+
+[33mcommit a66b992d949a5cc8b0a10eccccaf1148cda1478b[m
+Merge: 68c5221 f673417
+Author: eromero <edu88_1@hotmail.com>
+Date:   Fri Oct 14 06:03:23 2016 -0400
+
+    controladores conflicto
+
+[33mcommit f67341711353c4d8b928acf3e67dfde8e722579e[m
+Author: edwynr <edu88_1@hotmail.com>
+Date:   Fri Oct 14 16:14:51 2016 -0400
+
+    otros archivos subidos
+
+[33mcommit 68c52218be8a467a5cf4eca5db77b5a633be9447[m
+Author: eromero <edu88_1@hotmail.com>
+Date:   Thu Oct 13 19:15:41 2016 -0400
+
+    creando los controladores
+
+[33mcommit d635977e2657a117abd94d4566f10ff39ec42983[m
+Author: edwynr <edu88_1@hotmail.com>
+Date:   Thu Oct 13 16:15:36 2016 -0400
+
+    creando el modelo 1
+
+[33mcommit de4214898d37c8c2b3ff09e4eb0047d9b914903c[m
+Author: edwynr <edu88_1@hotmail.com>
+Date:   Thu Oct 13 15:53:20 2016 -0400
+
+    inicio
