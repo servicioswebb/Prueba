@@ -1,17 +1,25 @@
 <?php
 
-
-	class Compania extends CI_Model{  //Creando el controlador para la clase compañia
+if (!defined('BASEPATH')) {
+    exit('No direct script access allowed');
+	
+	class Compania_model extends CI_Model{
 		
-		public function __construct()
-		{
-			$this->load->database();
-						
-		}	
-		public function index ()
-		{
-			
-		}
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->database();
+		$this->load->model('Compania_model');
+	}
+	function crearCurso($data)
+	{
+		$this->db->insert()
+	}
+		
+		
+		
+		
+		
 		
 		
 	}

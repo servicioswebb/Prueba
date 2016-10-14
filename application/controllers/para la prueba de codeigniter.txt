@@ -1,0 +1,34 @@
+complementar con los otros datos de la prueba de codeigniter
+cuando creamos peticiones, despues del index van el controlador luego la funcion     
+index.php/codigofacilito/holamundo
+
+las vistas se cargan con el metodo view
+
+la funcion load lo que hace es un render
+
+
+podemos cargar multiples vistas a un solo sitio es lo mismo que decir otros layouts
+
+parte de los helpers 
+no estan estructurados orientado a objetos
+son solo funciones que se ejecutan  que te van ayudar a desarrollar de una manera mas rapida
+nombre_helper
+
+estos se declaran debajo del constructor pero dentro
+ejemplo
+class CodigoFacilito extends CI_Controllers{
+public fuction construct (){
+parent::__construct();
+//$this->load->helper('mihelper');
+}
+}
+
+librerias  esto es el video 8
+deben de ir en la carpeta libraries
+
+la clase se escribe como el archivo
+
+
+
+
+

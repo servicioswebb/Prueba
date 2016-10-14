@@ -6,5 +6,6 @@
 </head>
 <body>
 <h1><?php echo $tutoria; ?></h1>
+
 </body>
 </html>
