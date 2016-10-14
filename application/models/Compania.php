@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	class Compania extends CI_Model{  //Creando el controlador para la clase compañia
 		
@@ -14,6 +15,8 @@
 			
 		}
 =======
+=======
+>>>>>>> f5750a7661d322c717ee112fd971d113d8957f02
 if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 	
@@ -23,6 +26,10 @@ if (!defined('BASEPATH')) {
 	{
 		parent::__construct();
 		$this->load->database();
+<<<<<<< HEAD
+=======
+		$this->load->model('Compania_model');
+>>>>>>> f5750a7661d322c717ee112fd971d113d8957f02
 	}
 	function crearCurso($data)
 	{
@@ -33,7 +40,10 @@ if (!defined('BASEPATH')) {
 		
 		
 		
+<<<<<<< HEAD
 >>>>>>> f67341711353c4d8b928acf3e67dfde8e722579e
+=======
+>>>>>>> f5750a7661d322c717ee112fd971d113d8957f02
 		
 		
 	}
