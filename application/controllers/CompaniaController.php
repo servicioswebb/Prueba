@@ -13,6 +13,7 @@ class CompaniaController extends CI_Controller
 
         parent::__construct();
         $this->load->helper('mihelpe');
+		$this->load->helper('form');
         //$this->load->model('Compania');
     }
 
