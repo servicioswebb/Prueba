@@ -22,9 +22,16 @@ class CompaniaController extends CI_Controller
     public function index()
     {
 
-        $this->load->library('menu', array('Inicio', 'Compania'));
+        /* $this->load->library('menu', array('Inicio', 'Compania'));
         $data['mi_menu'] = $this->menu->construirMenu();
         $this->load->view('compania/bienvenido', $data);
+         */
+        $this->load->view('layouts/header');
+        $this->load->view('layouts/main');
+        $this->load->view('layouts/about');
+        $this->load->view('layouts/download');
+        $this->load->view('layouts/contact');
+        $this->load->view('layouts/footer');
     }
 
     public function nuevo()
