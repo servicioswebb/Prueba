@@ -16,6 +16,7 @@ class CompaniaController extends CI_Controller
         parent::__construct();
         $this->load->helper('mihelpe');
         $this->load->helper('form');
+        $this->load->helper('url');
         //$this->load->model('Compania');
     }
 
@@ -26,11 +27,10 @@ class CompaniaController extends CI_Controller
         $data['mi_menu'] = $this->menu->construirMenu();
         $this->load->view('compania/bienvenido', $data);
          */
+        $this->load->view('layouts/head');
         $this->load->view('layouts/header');
         $this->load->view('layouts/main');
-        $this->load->view('layouts/about');
-        $this->load->view('layouts/download');
-        $this->load->view('layouts/contact');
+        $this->load->view('layouts/content');
         $this->load->view('layouts/footer');
     }
 
