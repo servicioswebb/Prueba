@@ -8,7 +8,7 @@ foreach ($consulta->result() as $fila) {
 
     ?>
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="">
                         <h2 class="post-title">
                             <?=@$fila->nomCompa?>
                         </h2>
