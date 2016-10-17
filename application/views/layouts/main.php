@@ -17,10 +17,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Inicio</a>
+                        <a href="<?php echo base_url() ?>index.php/CompaniaController">Inicio</a>
                     </li>
                     <li>
-                        <a href="about.html">Compañia</a>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/CompaniaController">Compañia</a>
                     </li>
                     <li>
                         <a href="post.html">Cuartel</a>
