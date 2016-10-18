@@ -8,7 +8,7 @@ foreach ($consulta->result() as $fila) {
 
     ?>
                 <div class="post-preview">
-                    <a href="">
+                    <a href="<?= base_url()?>ArticuloController/Compania_model/<?= $fila->idCompa?>">
                         <h2 class="post-title">
                             <?=@$fila->nomCompa?>
                         </h2>

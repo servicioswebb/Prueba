@@ -31,7 +31,8 @@ class CompaniaController extends CI_Controller
         $this->load->view('layouts/header');
         $this->load->view('layouts/main');
 
-        $resultado = $this->db->get('compania');
+		$this->load->model('Compania_model');
+        $resultado = $this->Compania_model->getCompania();
         $dato      = array('consulta' => $resultado);
         $this->load->view('compania/content', $dato);
         $this->load->view('layouts/footer');
