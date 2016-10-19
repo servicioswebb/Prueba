@@ -1,7 +1,4 @@
-
-
 <?php
-
 if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 
@@ -30,8 +27,7 @@ class CompaniaController extends CI_Controller
         $this->load->view('layouts/head');
         $this->load->view('layouts/header');
         $this->load->view('layouts/main');
-
-		//$this->load->model('Compania_model');
+        //$this->load->model('Compania_model');
         $resultado = $this->Compania_model->getCompania();
         $dato      = array('consulta' => $resultado);
         $this->load->view('compania/content', $dato);
