@@ -28,6 +28,21 @@
                     <li>
                         <a href="contact.html">Componente</a>
                     </li>
+					<li>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/InscripcionController">Inscripciòn</a>   
+                    </li>
+					<li>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/ServicioController">Servicio</a>
+                    </li>
+					<li>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/SoldadoController">Soldado</a>
+                    </li>
+					<li>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/UsuarioController">Usuario</a>
+                    </li>
+					<li>
+                     <a href="<?php echo base_url() //para colocar los menus dinamicos ?>index.php/CompaniaController">Auditoria</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

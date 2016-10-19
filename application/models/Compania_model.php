@@ -24,9 +24,9 @@ class Compania_model extends CI_Model
         $this->db->insert('compania',array('Nombre compañia'=>$data['nombre'],'actividad compañia'=>$data['actividad']));
     }
 
-	public function getCompaniaByName($id='')
+	public function getCompaniaById($id='')
 	{
-		$result = $this->db->query("SELECT * FROM compania WHERE idCompa='".$id."' LIMIT 1");
+		$result = $this->db->query("SELECT * FROM compania WHERE idCompa='" .$id. "' LIMIT 1");
 		return $result->row();
 	}
 }
