@@ -18,9 +18,9 @@ class ArticuloController extends CI_Controller
 		'actividadCompa' => $fila->actividadCompa
 		);
 		
-		$data      = array('contenido' => $fila->idCompa);
+		//$data      = array('contenido' => $fila->idCompa);
 		$data      = array('contenido' => $fila->nomCompa);
-		$data      = array('contenido' => $fila->actividadCompa);
+		//$data      = array('contenido' => $fila->actividadCompa);
         $this->load->view('compania/content1', $data);
         $this->load->view('layouts/footer');
 
